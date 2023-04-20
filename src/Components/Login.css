@@ -1,0 +1,39 @@
+.button-log
+{
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color:white;
+    background-color: #00B840;
+    font-size: medium;
+    margin-top: 20px;
+    /* cursor: pointer; */
+}
+.div-log
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+}
+.forget
+{
+    color: #00B840;
+    cursor: grabbing;
+   
+}
+.input-log
+{
+    height: 50px;
+    width: 96%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    /* margin-bottom: 5px; */
+}
+.dec-none
+{
+    text-decoration: none;
+    margin-left: 2px;
+}

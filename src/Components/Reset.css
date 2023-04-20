@@ -1,0 +1,30 @@
+.reset
+{  
+
+    height: 100vh;
+    width: 99vw;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.reset-container
+{
+    /* background-color: azure; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 15px;
+}
+.mail
+{
+   color: black;
+   font-weight: bold;
+   margin-left: 5px;
+}
+.text-reset
+{
+    font-size: 15px;
+}

@@ -1,0 +1,291 @@
+.login-body
+{
+    height: 100vh;
+    width: 100vw;
+    background-color: #152C1E;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.text-login{
+
+    width: 30%;
+    font-size: large;
+    margin-top: -20px;
+    font-family:sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-login{
+
+ 
+    display: flex;
+  
+    
+}
+.btn
+{
+    height: 40px;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background-color: #00B840;
+    font-size: medium;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .text-login{
+
+        width: 100%;
+        font-size: medium;
+        margin-top: -20px;
+    }
+    
+    .btn-login{
+    
+    
+        display: flex;
+  
+    }
+    .heading
+    { 
+        font-size: large;
+    }
+  }
+
+  /* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	    .text-login{
+
+        width: 100%;
+        font-size: medium;
+        margin-top: -20px;
+    }
+    
+    .btn-login{
+    
+    
+        display: flex;
+  
+    }
+    .heading
+    { 
+        font-size: large;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+	    .text-login{
+
+        width: 100%;
+        font-size: medium;
+        margin-top: -20px;
+    }
+    
+    .btn-login{
+    
+    
+        display: flex;
+  
+    }
+    .heading
+    { 
+        font-size: large;
+    }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+	    .text-login{
+
+        width: 100%;
+        font-size: medium;
+        margin-top: -20px;
+    }
+    
+    .btn-login{
+    
+    
+        display: flex;
+  
+    }
+    .heading
+    { 
+        font-size: large;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	    .text-login{
+
+        width: 100%;
+        font-size: medium;
+        margin-top: -20px;
+    }
+    
+    .btn-login{
+    
+    
+        display: flex;
+  
+    }
+    .heading
+    {
+        font-size: xx-large;
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+	    .text-login{
+
+        width: 100%;
+        font-size: medium;
+        margin-top: -20px;
+    }
+    
+    .btn-login{
+    
+    
+        display: flex;
+  
+    }
+    .heading
+    {
+        font-size: xx-large;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	    .text-login{
+
+        width: 100%;
+        font-size: medium;
+        margin-top: -20px;
+    }
+    
+    .btn-login{
+    
+    
+        display: flex;
+  
+    }
+    .heading
+    { 
+        font-size: large;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+	    .text-login{
+
+        width: 100%;
+        font-size: medium;
+        margin-top: -20px;
+    }
+    
+    .btn-login{
+    
+    
+        display: flex;
+  
+    }
+    .heading
+    {
+        font-size: xx-large;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+	    .text-login{
+
+        width: 50%;
+        font-size: medium;
+        margin-top: -20px;
+    }
+    
+    .btn-login{
+    
+    
+        display: flex;
+  
+    }
+    .heading
+{
+    font-size: xx-large;
+}
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+	    .text-login{
+
+        width: 100%;
+        font-size: medium;
+        margin-top: -20px;
+    }
+    
+    .btn-login{
+    
+    
+        display: flex;
+  
+    }
+    .heading
+    { 
+        font-size: large;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width: 767px) { 
+
+
+
+.text-login{
+
+    width: 100%;
+    font-size: small;
+    margin-top: 0px;
+}
+
+.btn-login{
+
+
+    display: flex;
+
+}
+.heading
+{ 
+    font-size: large;
+}
+
+ }

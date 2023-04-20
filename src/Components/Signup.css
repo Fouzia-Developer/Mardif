@@ -1,0 +1,610 @@
+.signup-container
+{  
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+    padding-top: 70px;
+   
+}
+/* .logo
+{
+    margin-bottom: -30px;
+} */
+
+.btn-disabled
+{
+    background-color: gray;
+    color: white;
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+    cursor: not-allowed;
+}
+
+.buttona {
+    position: relative;
+    left: 91%;
+    top: -35px;
+    border: none;
+    background: none;
+    font-size: 14px;
+    cursor: pointer;
+    width: 5%;
+ 
+  }
+.title-cp
+{
+    color: #2E2E2E;
+}
+.signup
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-signup
+{
+    display: flex;
+    text-align: center;
+}
+.div-sub
+{
+    display: flex;
+    flex-direction: column;
+}
+.input
+{
+    height: 50px;
+    width: 30vw;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+/* .log{
+    margin-top: -10px;
+} */
+.input-radio
+{
+    height: 50px;
+    width: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+.button
+{
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color:white;
+    background-color: #00B840;
+    font-size: medium;
+}
+
+.input2
+{
+    height: 50px;
+    width: 30vw;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+.title
+{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+.policy
+{
+    display: flex;
+    font-size: 17px;
+}
+.text-policy
+{
+    margin-left: 10px;
+}
+span{
+    color: #00B840;
+    cursor: pointer;
+}
+.text-login
+{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .signup-container
+{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+
+.input2
+{
+    height: 50px;
+    width: 98%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+.input
+{
+    height: 50px;
+    width: 98%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+  }
+   /* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .signup-container
+    {
+        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+    
+    
+    .input2
+    {
+        height: 50px;
+        width: 98%;
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding-left: 10px;
+    }
+    .input
+    {
+        height: 50px;
+        width: 98%;
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding-left: 10px;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+    .signup-container
+    {
+        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+    
+    
+    .input2
+    {
+        height: 50px;
+        width: 98%;
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding-left: 10px;
+    }
+    .input
+    {
+        height: 50px;
+        width: 98%;
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding-left: 10px;
+    }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+    .signup-container
+    {
+        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+    
+    
+    .input2
+    {
+        height: 50px;
+        width: 98%;
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding-left: 10px;
+    }
+    .input
+    {
+        height: 50px;
+        width: 98%;
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding-left: 10px;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    .signup-container
+    {
+        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+    
+    
+    .input2
+    {
+        height: 50px;
+        width: 98%;
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding-left: 10px;
+    }
+    .input
+    {
+        height: 50px;
+        width: 98%;
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding-left: 10px;
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+    .signup-container
+    {
+        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+    
+    
+    .input2
+    {
+        height: 50px;
+        width: 98%;
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding-left: 10px;
+    }
+    .input
+    {
+        height: 50px;
+        width: 98%;
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding-left: 10px;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    .signup-container
+    {
+        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+    
+    
+    .input2
+    {
+        height: 50px;
+        width: 98%;
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding-left: 10px;
+    }
+    .input
+    {
+        height: 50px;
+        width: 98%;
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding-left: 10px;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+    .signup-container
+{
+    
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+}
+.signup
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-signup
+{
+    display: flex;
+    text-align: center;
+}
+.div-sub
+{
+    display: flex;
+    flex-direction: column;
+}
+.input
+{
+    height: 50px;
+    width: 28vw;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+.input-radio
+{
+    height: 50px;
+    width: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+.button
+{
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color:white;
+    background-color: #00B840;
+    font-size: medium;
+}
+
+.input2
+{
+    height: 50px;
+    width: 30vw;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+.title
+{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+.policy
+{
+    display: flex;
+    font-size: 17px;
+}
+.text-policy
+{
+    margin-left: 10px;
+}
+span{
+    color: #00B840;
+    cursor: pointer;
+}
+.text-login
+{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    margin-top: 20px;
+}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+    .signup-container
+    {
+        
+        width: 30vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: aquamarine; */
+    }
+    .signup
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-signup
+    {
+        display: flex;
+        text-align: center;
+    }
+    .div-sub
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .input
+    {
+        height: 50px;
+        width: 28vw;
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding-left: 10px;
+    }
+    .input-radio
+    {
+        height: 50px;
+        width: 20px;
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding-left: 10px;
+    }
+    .button
+    {
+        height: 50px;
+        width: 100%;
+        border-radius: 5px;
+        border: none;
+        color:white;
+        background-color: #00B840;
+        font-size: medium;
+    }
+    
+    .input2
+    {
+        height: 50px;
+        width: 30vw;
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding-left: 10px;
+    }
+    .title
+    {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 7px;
+        margin-top: 7px;
+    }
+    .policy
+    {
+        display: flex;
+        font-size: 17px;
+    }
+    .text-policy
+    {
+        margin-left: 10px;
+    }
+    span{
+        color: #00B840;
+    }
+    .text-login
+    {
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+    .signup-container
+    {
+        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+    
+    
+    .input2
+    {
+        height: 50px;
+        width: 98%;
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding-left: 10px;
+    }
+    .input
+    {
+        height: 50px;
+        width: 98%;
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding-left: 10px;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width: 767px) { 
+
+
+
+ .signup-container
+{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+
+.input2
+{
+    height: 50px;
+    width: 98%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+.input
+{
+    height: 50px;
+    width: 98%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+ }
